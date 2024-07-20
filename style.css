@@ -8,6 +8,10 @@ body{
     font-style: normal;
     font-size: 20px;
 }
+.result{
+    font-size: 80px;
+    padding-right: 20px;
+}
 .bigContainer{
     padding: 45px;
     display: flex;
@@ -35,6 +39,9 @@ body{
     border: 4px solid black;
     background-color: #E4C59E;
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: auto;
     max-height: 30%;
 }
@@ -73,5 +80,17 @@ body{
     
 }
 .button.low{
-    background-color: gray;
+    background-color: gray  ;
 }
+.button.gold{
+    background-color: goldenrod;
+}
+.button.sifir{
+    flex: 2;
+}
+.button:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+} 

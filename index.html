@@ -6,6 +6,7 @@
     <title>GodDamnCalculator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="script.js" defer></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
@@ -13,37 +14,38 @@
     <div class="bigContainer">
         <div class="calculatorContainer">
             <div class="column">
-                <div class="screen"></div>
+                <div class="screen">
+                    <h1 class="result"></h1>
+                </div>
                 <div class="lines">
                     <div class="line">
                         <div class="button low" id="AC">AC</div>
-                        <div class="button low" id="4/-">+/-</div>
-                        <div class="button low" id="%">%</div>
-                        <div class="button " id="bolme">÷</div>
+                        
+                        <div class="button low" id="yuzde">%</div>
+                        <div class="button gold " id="bolme">÷</div>
                     </div>
                     <div class="line">
-                        <div class="button">7</div>
-                        <div class="button">8</div>
-                        <div class="button">9</div>
-                        <div class="button"></div>
+                        <div class="button" id="7">7</div>
+                        <div class="button" id="8">8</div>
+                        <div class="button" id="9">9</div>
+                        <div class="button gold" id="carpim">✖</div>
                     </div>
                     <div class="line">
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
+                        <div class="button" id="4">4</div>
+                        <div class="button" id="5">5</div>
+                        <div class="button" id="6">6</div>
+                        <div class="button gold" id="cikarma">-</div>
                     </div>
                     <div class="line">
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
+                        <div class="button" id="1">1</div>
+                        <div class="button" id="2">2</div>
+                        <div class="button" id="3">3</div>
+                        <div class="button gold" id="toplama">+</div>
                     </div>
                     <div class="line">
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
+                        <div class="button sifir" id="0">0</div>
+                        <div class="button" id=".">.</div>
+                        <div class="button gold" id="sonuc">=</div>
                     </div>
                 </div>
             </div>
