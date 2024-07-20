@@ -33,8 +33,15 @@ function checkButton(){
             result.textContent = -result.textContent
         }
         else if(buttonPressed === "sonuc"){
-           hesapla()
-           result.textContent = sonuc
+            if(sonuc > 1000000)
+            {
+                result.textContent = "NaN"
+            }
+            else{
+                hesapla()
+                result.textContent = sonuc
+            }
+           
 
             
         }
